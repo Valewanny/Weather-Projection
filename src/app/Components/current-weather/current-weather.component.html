@@ -1,0 +1,19 @@
+<div *ngIf="weatherData" @slideInOut  class="forecast current-weather" class="current-weather" [style.background-image]="backgroundImageUrl">
+  <h2>Current Weather</h2>
+  <div class="search">
+    <input type="text" placeholder="Enter location" #locationInput class="input">
+    <button (click)="onLocationChange(locationInput.value)">Search</button>
+  </div>
+  <div *ngIf="weatherData">
+    <h3>City: {{cityName}}</h3>
+    <p>Temperature: {{ weatherData.main.temp }} °C</p>
+    <p>Weather: {{ weatherData.weather[0].description }}</p>
+    <p>Humidity: {{ weatherData.main.humidity }}%</p>
+    <p>Wind Speed: {{ weatherData.wind.speed }} km/h</p>
+    <p>Sunrise: {{ (weatherData.sys.sunrise * 1000) | date:'shortTime' }}</p>
+    <p>Sunset: {{ (weatherData.sys.sunset * 1000) | date:'shortTime' }}</p> <br>
+  </div>
+  <div>
+
+  </div>
+</div>

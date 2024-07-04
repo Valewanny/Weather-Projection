@@ -1,0 +1,53 @@
+.forecast{
+    color: #CCCCCC;
+    padding: 10px;
+    border-radius: 5px;
+    /* background-image: url(https://img.freepik.com/free-vector/set-different-lake-scenes_1308-23274.jpg?w=740&t=st=1719580960~exp=1719581560~hmac=a1a4fbba6c9ed5efc78024313f2682cca73a69482b57a5df46fba6bb8d058d3b); */
+    background-color:#2F4F4F ;
+    background-size: cover;
+    margin-top: 10px;
+    font-size: x-large;
+    
+  }
+  
+  .forecast p,  h2, .forecast h3 {
+    color: #96b6df;
+    padding-left: 4px;
+  }
+  .forecast p {
+   padding-left: 30px;
+   padding-right: 30px;
+  }
+  .forecast button {
+    background-color: rgb(3, 94, 3);
+    border-radius: 15px;
+    padding: 5px;
+    margin-left: 30px;
+  }
+  .forecast button.day {
+    background-color: #518bd8; /* Different background color for day button */
+    color: yellow; /* Different text color for day button */
+    font-weight: bold; /* Bold text for day button */
+    width: calc(100% + 20px); /* Full width plus 20px to offset padding */
+    display: block; /* Display as block to take full width */
+    margin-left: -40px; /* Remove left margin by 10px */
+    margin-right: -40px; /* Remove right margin by 10px */
+    padding: 10px;
+    box-sizing: border-box; /* Ensure padding is included in the width calculation */
+  }
+  .forecast button img {
+    width: 50px; /* Adjust the size as needed */
+    height: auto;
+    vertical-align: middle; /* Align icon with text */
+    margin-right: 10px; /* Space between icon and text */
+  }
+  .container {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .container > div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }

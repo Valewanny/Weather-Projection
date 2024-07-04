@@ -15,6 +15,7 @@
         "@schematics/angular:pipe": {
           "standalone": false
         }
+        
       },
       "root": "",
       "sourceRoot": "src",
@@ -31,10 +32,8 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
+              "src/assets",
+              "src/favicon.ico"
             ],
             "styles": [
               "src/styles.css"
@@ -94,18 +93,20 @@
             ],
             "tsConfig": "tsconfig.spec.json",
             "assets": [
-              {
-                "glob": "**/*",
-                "input": "public"
-              }
+              "src/assets",
+              "src/favicon.ico"
             ],
             "styles": [
               "src/styles.css"
             ],
+            
             "scripts": []
           }
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "cb437aa6-4a88-4bca-b8b2-058480be6db5"
   }
 }

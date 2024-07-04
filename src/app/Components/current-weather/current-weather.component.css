@@ -1,0 +1,94 @@
+.current-weather {
+    /* background-image: url('https://img.freepik.com/premium-photo/scenic-view-landscape-against-sky_1048944-401436.jpg?size=626&ext=jpg&ga=GA1.2.736665098.1706879640&semt=ais_user'); */
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    color: #96b6df ; /* Sets the text color to white for better visibility */
+    background-color: #2F4F4F;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: xx-large;
+}
+
+.current-weather p {
+    padding-left: 20px;
+}
+.search {
+    display: flex;
+    align-items: center; /* Centers items vertically */
+}
+
+.input {
+    flex: 1; /* Takes remaining space */
+    padding: 12px 20px; /* Adjust padding for size */
+    border-radius: 20px; /* Rounded corners */
+    border: none; /* Removes default border */
+    margin-right: 10px; /* Adjust spacing between input and button */
+    font-size: 16px; /* Adjust font size */
+}
+
+.search button {
+    padding: 12px 20px; /* Adjust padding for size */
+    border: none; /* Removes default border */
+    background-color: #ffffff; /* Button background color */
+    color: #333333; /* Button text color */
+    border-radius: 20px; /* Rounded corners */
+    cursor: pointer; /* Cursor style */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.search button:hover {
+    background-color: #f0f0f0; /* Darken button background on hover */
+}
+.container {
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .container > div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .weather-icon {
+    width: 50px;
+    height: 50px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+
+/* Clear/Sunny:
+
+Background: #87CEEB (Sky Blue)
+Text: #FFFFFF (White)
+Icons: Yellow or white for sun
+Cloudy:
+
+Background: #B0C4DE (Light Steel Blue) or #D3D3D3 (Light Gray)
+Text: #2F4F4F (Dark Slate Gray)
+Icons: Dark gray or white for clouds
+Rainy:
+
+Background: #708090 (Slate Gray) or #4682B4 (Steel Blue)
+Text: #FFFFFF (White)
+Icons: Blue or white for rain drops
+Snowy:
+
+Background: #FFFFFF (White) or #E0FFFF (Light Cyan)
+Text: #000000 (Black)
+Icons: White or light blue for snowflakes
+Thunderstorm:
+
+Background: #4B0082 (Indigo) or #2F4F4F (Dark Slate Gray)
+Text: #FFFFFF (White)
+Icons: Yellow or white for lightning
+Fog:
+
+Background: #C0C0C0 (Silver) or #DCDCDC (Gainsboro)
+Text: #696969 (Dim Gray)
+Icons: Gray or white for fog
+Night:
+
+Background: #191970 (Midnight Blue) or #000000 (Black)
+Text: #FFFFFF (White)
+Icons: White or light yellow for moon and stars */

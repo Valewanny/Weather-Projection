@@ -1,0 +1,29 @@
+.display ul {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Apply flexbox to ul */
+    
+  }
+  
+  .display li {
+    margin-right: 20px; /* Space between items */
+  }
+  
+  .display li:last-child {
+    margin-right: 0; /* Remove margin for the last item */
+  }
+  
+  .display a {
+    text-decoration: none; /* Remove underline from links */
+    color: #DCDCDC; /* Set link color */
+  }
+  .page {
+    background-color: #130101;
+    padding: 10px;
+
+  }
+  .page h1 {
+    color:#DCDCDC ;
+  }
+  
